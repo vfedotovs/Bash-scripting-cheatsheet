@@ -44,7 +44,7 @@ Basic Commands: Commonly used Bash commands and utilities.
 Control Structures: Loops, conditionals, and case statements.   
 Functions: Defining and using functions in Bash.   
 [Arrays](arrays.md): Working with indexed and associative arrays.   
-String Manipulation: Techniques for handling and processing strings.   
+[String Manipulation](strings.md): Techniques for handling and processing strings.   
 File Operations: Reading, writing, and manipulating files.   
 Process Management: Running, managing, and automating processes.   
 Debugging: Tips and commands for debugging Bash scripts.   
