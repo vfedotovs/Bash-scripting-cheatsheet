@@ -1,3 +1,8 @@
+# Bash has 2 tyes of arrays:
+ - indexed arrays
+ - asociative arrays
+
+```
 #!/usr/bin/env bash
 
 
@@ -19,10 +24,31 @@ for index in "${!shopping_list[@]}"; do
   echo "Shopping item at index $index is ${shopping_list[$index]}"
 done
 
-# TODO:  CRUD of arrays
+# Example: Reading lines from a file into an array
+lines=($(cat /path/to/file.txt))
+
+# Iterate over the array elements
+for line in "${lines[@]}"; do
+  echo "$line"
+done
+```
+
+# Building array from output of command 
+
+```bash
+# Read the output of a command line by line into an array
+mapfile -t lines < <(cat /path/to/file.txt)
+
+# Iterate over the array elements
+for line in "${lines[@]}"; do
+  echo "$line"
+done
+```
+
+```
+# TODO:
 # - add item to array at index
 # - update item at index
 # - remove item from array at index
 # - read item at index - done
-#
-# - Read in to array from command
+```
