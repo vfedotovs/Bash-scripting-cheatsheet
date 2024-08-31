@@ -41,11 +41,11 @@ cd bash-scripting-cheatsheet
 This repository is organized into various sections, each covering different aspects of Bash scripting:
 
 Basic Commands: Commonly used Bash commands and utilities.   
-Control Structures: Loops, conditionals, and case statements.   
-Functions: Defining and using functions in Bash.   
+Control Structures: [Loops](loops.md), [conditionals](conditials.md), and [case statements](case_statemtents.md).   
+[Functions](functions.md): Defining and using functions in Bash.   
 [Arrays](arrays.md): Working with indexed and associative arrays.   
 [String Manipulation](strings.md): Techniques for handling and processing strings.   
-File Operations: Reading, writing, and manipulating files.   
+[File Operations](file_operations.md): Reading, writing, and manipulating files.   
 Process Management: Running, managing, and automating processes.   
 Debugging: Tips and commands for debugging Bash scripts.   
 Best Practices: Guidelines for writing clean, maintainable scripts.   
