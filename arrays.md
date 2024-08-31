@@ -22,6 +22,7 @@ Operations:
 Length of array: ${#array_name[@]}   
 Adding elements: array_name+=(element4)   
 Removing elements: unset array_name[index]   
+Update element at index: array_name[index]="new_value"
 
 
 Detailed examples
